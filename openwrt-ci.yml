@@ -102,7 +102,7 @@ jobs:
           cat >> .config <<EOF
           CONFIG_TARGET_ramips=y
           CONFIG_TARGET_ramips_mt7620a=y
-          CONFIG_TARGET_ramips_mt7620a_XIAOMI-MIWIFI-MINI=y
+          CONFIG_TARGET_ramips_mt7620a_xiaomi_miwifi-mini=y
           EOF
 
           # 固件压缩:
